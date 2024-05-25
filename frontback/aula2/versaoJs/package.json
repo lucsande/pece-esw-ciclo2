@@ -1,0 +1,16 @@
+{
+  "name": "aula2",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc --version && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "build/index.js",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

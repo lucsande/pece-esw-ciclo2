@@ -1,0 +1,4 @@
+# Node.js dependency directory
+build
+node_modules
+package-lock.json
